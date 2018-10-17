@@ -1,0 +1,13 @@
+Source: rgb-lcd-demo
+Section: misc
+Priority: optional
+Maintainer: Maxim Yu. Osipov <mosipov@ilbers.de>
+Build-Depends: debhelper (>= 9), libupm-dev, libmraa-dev, libsoc-dev 
+Standards-Version: 3.9.8
+Homepage: https://github.com/ilbers/rgb-lcd-demo
+
+Package: rgb-lcd-demo
+Architecture: arm64 
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Demo on 96boards baseboard with attached Sensors Board
+ This is an example of how to display text on the Grove RGB LCD module and change the color of the backlight. 
